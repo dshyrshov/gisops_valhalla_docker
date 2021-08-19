@@ -1,1 +1,8 @@
 custom_files/*
+demos/.project
+demos/.settings
+demos/.DS_Store
+demos/.DS_Store?
+
+# Exclude
+!custom_files/valhalla.json

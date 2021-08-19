@@ -23,13 +23,13 @@ services:
       # Don't blank out tile_url when you use tile_file and vice versa.
       - tile_urls=http://download.geofabrik.de/europe/ukraine-latest.osm.pbf
       # Get correct bounding box from e.g. https://boundingbox.klokantech.com/
-      - min_x=43 # -> Albania | -180 -> World
-      - min_y=21 # -> Albania | -90  -> World
-      - max_x=53 # -> Albania |  180 -> World
-      - max_y=41 # -> Albania |  90  -> World
+      - min_x=43 # | -180 -> World
+      - min_y=21 # | -90  -> World
+      - max_x=53 # |  180 -> World
+      - max_y=41 # |  90  -> World
       - use_tiles_ignore_pbf=True
       - force_rebuild=False
       - force_rebuild_elevation=False
-      - build_elevation=True
+      - build_elevation=False
       - build_admins=True
       - build_time_zones=True
