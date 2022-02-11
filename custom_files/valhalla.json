@@ -1,6 +1,6 @@
 {
   "additional_data": {
-    "elevation": "/custom_files/elevation_data"
+    "_elevation": "/custom_files/elevation_data"
   },
   "httpd": {
     "service": {
